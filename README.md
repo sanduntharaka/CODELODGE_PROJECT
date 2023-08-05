@@ -25,6 +25,6 @@ HostelHub is an advanced hostel booking system developed using the Laravel frame
 ## Contact
 For any inquiries or support, please contact us at support@hostelhub.ou.ac.lk
 
-## License
+## License of the system
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
