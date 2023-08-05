@@ -1,7 +1,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://ou.ac.lk/wp-content/uploads/2021/07/cropped-New-Logo-3.png" width="400" alt="Laravel Logo"></a></p>
 
 
-## About Hostehub
+## About Hostelhub
 
 HostelHub is an advanced hostel booking system developed using the Laravel framework. This project aims to revolutionize the traditional hostel booking experience by integrating live payment gateways, real-time notifications, and an enhanced user interface. Whether you're a hostel owner or a traveler, HostelHub provides a seamless platform for managing bookings and reservations.
 
