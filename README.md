@@ -23,7 +23,7 @@ HostelHub is an advanced hostel booking system developed using the Laravel frame
 - Responsive Design: HostelHub is designed to work seamlessly across various devices, ensuring a consistent experience for users regardless of their screen size.
 
 ## Contact
-For any inquiries or support, please contact us at support@hostelhub.com
+For any inquiries or support, please contact us at support@hostelhub.ou.ac.lk
 
 ## License
 
