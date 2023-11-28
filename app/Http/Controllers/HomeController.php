@@ -3,26 +3,29 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\RoomType;
+use App\Models\Roomtypeimage;
+use App\Models\Service;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
+    //Home Page
+    function home(){
+        $services=Service::all();
+        $roomTypes=RoomType::all();
+        return view('home', ['roomTypes'=>$roomTypes, 'services'=>$services]);
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
-    public function index()
-    {
-        return view('home');
+    function service(){
+        $services = Service::all();
+        return view('service',['services'=>$services]);
+    }
+
+    function about(){
+        return view('about');
+    }
+
+    function contact(){
+        return view('contact');
     }
 }

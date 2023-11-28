@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
-use lluminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
 return [
 
