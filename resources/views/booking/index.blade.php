@@ -19,7 +19,7 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Customer</th>
+                                            <th>Student</th>
                                             <th>Room No.</th>
                                             <th>Room Type</th>
                                             <th>CheckIn Date</th>
@@ -31,7 +31,7 @@
                                     <tfoot>
                                         <tr>
                                             <th>#</th>
-                                            <th>Customer</th>
+                                            <th>Student</th>
                                             <th>Room No.</th>
                                             <th>Room Type</th>
                                             <th>CheckIn Date</th>
