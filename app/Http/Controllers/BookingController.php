@@ -39,7 +39,7 @@ class BookingController extends Controller
             'room_id' => 'required',
             'checkin_date' => 'required',
             'checkout_date' => 'required',
-            'total_adults' => 'required',
+            
         ]);
 
         $data = new Booking;
@@ -47,8 +47,7 @@ class BookingController extends Controller
         $data->room_id=$request->room_id;
         $data->checkin_date=$request->checkin_date;
         $data->checkout_date=$request->checkout_date;
-        $data->total_adults=$request->total_adults;
-        $data->total_children=$request->total_children;
+        
         if($request->ref=='front'){
             $data->ref='front';
         }else{

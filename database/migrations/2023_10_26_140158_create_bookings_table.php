@@ -17,8 +17,6 @@ return new class extends Migration
             $table->integer('room_id');
             $table->string('checkin_date');
             $table->string('checkout_date');
-            $table->string('total_adults');
-            $table->string('total_children');
             $table->string('ref');
             $table->timestamps();
         });

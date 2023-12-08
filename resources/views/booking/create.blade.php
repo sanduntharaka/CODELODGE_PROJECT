@@ -53,14 +53,7 @@
                                                 <p>Price: <span class="show-room-price"></span></p>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <th>Total Adults <span class="text-danger">*</span></th>
-                                            <td><input name="total_adults" type="text" class="form-control" /></td>
-                                        </tr>
-                                        <tr>
-                                            <th>Total Children</th>
-                                            <td><input name="total_children" type="text" class="form-control" /></td>
-                                        </tr>
+                                        
                                         <tr>
                                             <td colspan="2">
                                                 <input type="hidden" name="roomprice" class="room-price" value="" />

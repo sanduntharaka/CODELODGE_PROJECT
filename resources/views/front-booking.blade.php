@@ -30,14 +30,6 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Total Adults <span class="text-danger">*</span></th>
-                    <td><input name="total_adults" type="text" class="form-control" /></td>
-                </tr>
-                <tr>
-                    <th>Total Children</th>
-                    <td><input name="total_children" type="text" class="form-control" /></td>
-                </tr>
-                <tr>
                     <td colspan="2">
                         <input type="hidden" name="customer_id" value="{{session('data')[0]->id}}" />
                         <input type="hidden" name="ref" value="front" />
