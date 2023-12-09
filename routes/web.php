@@ -33,6 +33,7 @@ use App\Http\Controllers\HomeController;
 |
 */
 
+/*Test Commit*/
 Route::get('/', [HomeController::class, 'home']);
 Route::get('service', [HomeController::class, 'service']);
 
