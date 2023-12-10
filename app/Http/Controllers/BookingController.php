@@ -37,8 +37,8 @@ class BookingController extends Controller
         $request->validate([
             'customer_id' => 'required',
             'room_id' => 'required',
-            'checkin_date' => 'required',
-            'checkout_date' => 'required',
+            'checkin_date' => 'required|date',
+            'checkout_date' => 'required|date|after_or_equal:checkin_date',
             
         ]);
 

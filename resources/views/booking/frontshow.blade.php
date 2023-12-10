@@ -7,7 +7,7 @@
 <div class="card shadow mb-4">
     <div class="card-header py-3">
         <h6 class="m-0 font-weight-bold text-primary">{{$data->full_name}} Detail</h6>
-        <a href="{{url('admin/booking')}}" class="float-right btn btn-success btn-sm">View All</a>
+        
     </div>
     <div class="card-body">
         <div class="table-responsive">

@@ -87,7 +87,7 @@ Route::get('register', [CustomerController::class, 'register']);
 //Simple Logout
 Route::get('logout', [CustomerController::class, 'logout']);
 
-//Customer booking
+//Student booking
 Route::get('booking', [BookingController::class, 'front_booking']);
 
 //Service CRUD
